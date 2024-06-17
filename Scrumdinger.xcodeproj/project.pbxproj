@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		480605B02C20788700635FAD /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480605AF2C20788700635FAD /* ScrumdingerApp.swift */; };
-		480605B22C20788700635FAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480605B12C20788700635FAD /* ContentView.swift */; };
+		480605B22C20788700635FAD /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480605B12C20788700635FAD /* MeetingView.swift */; };
 		480605B42C20788800635FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480605B32C20788800635FAD /* Assets.xcassets */; };
 		480605B72C20788800635FAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480605B62C20788800635FAD /* Preview Assets.xcassets */; };
 		480605C12C20788900635FAD /* ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480605C02C20788900635FAD /* ScrumdingerTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		480605AC2C20788700635FAD /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		480605AF2C20788700635FAD /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
-		480605B12C20788700635FAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		480605B12C20788700635FAD /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		480605B32C20788800635FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		480605B62C20788800635FAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		480605BC2C20788900635FAD /* ScrumdingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +44,7 @@
 		480605C62C20788900635FAD /* ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		480605CA2C20788900635FAD /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		480605CC2C20788900635FAD /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		480605D92C207F9A00635FAD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		480605A32C20788700635FAD = {
 			isa = PBXGroup;
 			children = (
+				480605D92C207F9A00635FAD /* README.md */,
 				480605AE2C20788700635FAD /* Scrumdinger */,
 				480605BF2C20788900635FAD /* ScrumdingerTests */,
 				480605C92C20788900635FAD /* ScrumdingerUITests */,
@@ -95,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				480605AF2C20788700635FAD /* ScrumdingerApp.swift */,
-				480605B12C20788700635FAD /* ContentView.swift */,
+				480605B12C20788700635FAD /* MeetingView.swift */,
 				480605B32C20788800635FAD /* Assets.xcassets */,
 				480605B52C20788800635FAD /* Preview Content */,
 			);
@@ -257,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				480605B22C20788700635FAD /* ContentView.swift in Sources */,
+				480605B22C20788700635FAD /* MeetingView.swift in Sources */,
 				480605B02C20788700635FAD /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
